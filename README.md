@@ -1,6 +1,6 @@
 # motif_frequency_analyzer
 
-We had 22 genbank files (12 for gram-positive and 10 for gram-negative) to analyze.  
+We had 12 genbank files (for gram-positive bacteria) to analyze.  
 
 #### Calculations, Plotting and Packages information
 Codes were written to extract information on location (`start position`, `end position`) and desirable qualifiers (`Gene ID`, `Gene name`, `Locus tag`, `strand orientation`) of the feature keys from the feature table of Genbank files for all the genes present in them. All the genes where `Gene ID` or `Gene name` were absent were marked as unavailable in our data. Gene sequences were also extracted along with _upstream_- and _downstream_- flanking regions of length `200 bp` and `203 bp` (to account for 3 positions, i.e., boundary cases, while looking for _motifs_ in the next step where otherwise it’d give zero count for those positions).
