@@ -1,4 +1,4 @@
-# motif_frequency_analyzer
+# motif\_frequency\_analyzer
 
 We had 12 genbank files (for gram-positive bacteria) to analyze.  
 
